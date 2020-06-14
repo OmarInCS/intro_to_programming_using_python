@@ -1,10 +1,4 @@
 
-
-try:
-    print("1")
-finally:
-    print("2")
-
 password = input("Enter a password: ")
 
 if len(password) < 8:
