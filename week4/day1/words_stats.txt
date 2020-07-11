@@ -1,0 +1,3 @@
+Number of Words: 1524
+Max. word length: 14
+Min. word length: 1
