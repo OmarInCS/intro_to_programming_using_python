@@ -1,3 +1,5 @@
+from sqlite3 import connect
+
 
 class Employee:
 
@@ -15,3 +17,15 @@ class Employee:
 
     def __repr__(self):
         return self.emp_name
+
+    @staticmethod
+    def get_all_emps():
+        url = "C:\\sqlite\\db\\hr.db"
+
+        with connect(url) as conn:
+            cur = conn.cursor()
+            stat = "select employee_id, last_name, email, hire_date, job_id, salary, department_id from employees"
+            result = cur.execute(stat).fetchall()
+            result = [Employee(*row) for row in result]
+            return result
+

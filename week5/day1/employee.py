@@ -4,6 +4,7 @@ from sqlite3 import connect
 class Employee:
 
     def __init__(self, emp_id, emp_name, email, hire_date, job_id, salary, dept_id):
+        print("-------")
         self.emp_id = emp_id
         self.emp_name = emp_name
         self.email = email
@@ -17,13 +18,3 @@ class Employee:
 
     def __repr__(self):
         return self.emp_name
-
-    def get_all_emps(self):
-        url = "C:\\sqlite\\db\\hr.db"
-
-        with connect(url) as conn:
-            cur = conn.cursor()
-            stat = "select employee_id, last_name, email, hire_date, job_id, salary, department_id from employees"
-            result = cur.execute(stat).fetchall()
-            result = [Employee(*row) for row in result]
-            return result
