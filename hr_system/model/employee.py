@@ -29,3 +29,21 @@ class Employee:
             result = [Employee(*row) for row in result]
             return result
 
+    def save_to_db(self):
+        url = "C:\\sqlite\\db\\hr.db"
+
+        with connect(url) as conn:
+            cur = conn.cursor()
+            stat = '''insert into employees (employee_id, last_name, email, hire_date, job_id, salary, department_id) 
+                    values (:emp_id, :emp_name, :email, :hire_date, :job_id, :salary, :dept_id)'''
+            cur.execute(stat, self.__dict__)
+            conn.commit()
+
+    def delete_from_db(self):
+        url = "C:\\sqlite\\db\\hr.db"
+
+        with connect(url) as conn:
+            cur = conn.cursor()
+            stat = "delete from employees where employee_id = :emp_id"
+            cur.execute(stat, self.__dict__)
+            conn.commit()
