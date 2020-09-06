@@ -11,5 +11,5 @@ with connect(db_path) as conn:
     cur = conn.cursor()
     sql = "select * from departments"
     result = cur.execute(sql).fetchall()
-    # result = [Department(*row) for row in result]
+    result = [Department(*row) for row in result]
     print(result)
