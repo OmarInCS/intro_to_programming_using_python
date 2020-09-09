@@ -11,7 +11,6 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 
 
 class Ui_Form(object):
-
     def setupUi(self, Form):
         Form.setObjectName("Form")
         Form.resize(1024, 800)
@@ -73,6 +72,9 @@ class Ui_Form(object):
         self.bt_del_emp = QtWidgets.QPushButton(Form)
         self.bt_del_emp.setObjectName("bt_del_emp")
         self.verticalLayout.addWidget(self.bt_del_emp)
+        self.bt_edit_emp = QtWidgets.QPushButton(Form)
+        self.bt_edit_emp.setObjectName("bt_edit_emp")
+        self.verticalLayout.addWidget(self.bt_edit_emp)
         self.bt_export = QtWidgets.QPushButton(Form)
         self.bt_export.setObjectName("bt_export")
         self.verticalLayout.addWidget(self.bt_export)
@@ -111,6 +113,7 @@ class Ui_Form(object):
         self.bt_del_dept.setText(_translate("Form", "Delete Department"))
         self.bt_add_emp.setText(_translate("Form", "Add Employee"))
         self.bt_del_emp.setText(_translate("Form", "Delete Employee"))
+        self.bt_edit_emp.setText(_translate("Form", "Edit Employee"))
         self.bt_export.setText(_translate("Form", "Export"))
         self.bt_exit.setText(_translate("Form", "Exit"))
 

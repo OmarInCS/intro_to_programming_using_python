@@ -134,6 +134,13 @@
         </widget>
        </item>
        <item>
+        <widget class="QPushButton" name="bt_edit_emp">
+         <property name="text">
+          <string>Edit Employee</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QPushButton" name="bt_export">
          <property name="text">
           <string>Export</string>
