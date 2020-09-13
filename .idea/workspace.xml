@@ -2,11 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58ee5e6e-03e5-4ea8-b5e7-9d121a4a4528" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/week3/day3/account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/day3/list_basics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/day3/object_copy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/day3/test_account.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day1/Sketch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day1/Sketch0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day1/Sketch1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day1/Sketch2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day1/analyze_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/week1/day1/analyze_numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day1/compute_salary.py" beforeDir="false" afterPath="$PROJECT_DIR$/week1/day1/compute_salary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day1/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/week1/day1/hello.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day1/student_mark.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day2/Sketch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day2/Sketch1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day2/Sketch2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day2/Sketch3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day2/addition_quiz.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day2/check_day.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day2/compute_salary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day3/Sketch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day3/Sketch1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day3/Sketch2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day3/check_mobile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day3/check_plate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day3/check_ssn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day3/string_basics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day1/Sketch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day1/Sketch1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day1/Sketch2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day1/addition_quiz.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day1/addition_quiz_v2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day1/guess_game.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day1/loop_basics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day2/Sketch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day2/Sketch1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day2/addition_quiz_v4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day2/marks_v2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day3/Sketch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day3/addition_quiz_v4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day3/nested_loops.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day3/print_primes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day4/Sketch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day4/Sketch1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day4/Sketch2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day4/call_functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day4/global_local.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day4/my_functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3/day1/Sketch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3/day1/Sketch1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3/day1/Sketch2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3/day1/patient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3/day1/rectangle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3/day1/test_patient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3/day1/test_rectangle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3/day2/Sketch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3/day2/Sketch1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3/day2/student.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3/day2/test_student.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3/day3/Sketch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3/day3/Sketch1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3/day3/account.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3/day3/list_basics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3/day3/object_copy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3/day3/test_account.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,20 +71,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.57045454">
       <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/week3/day3/list_basics.py">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/week1/day1/analyze_numbers.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="163">
-                  <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+                <state relative-caret-position="264">
+                  <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/week1/day1/compute_salary.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="12" selection-start-column="12" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/week3/day3/Sketch1.png">
+            <entry file="file://$PROJECT_DIR$/week1/day1/Sketch4.png">
+              <provider selected="true" editor-type-id="images" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/week1/day1/Sketch2.png">
               <provider selected="true" editor-type-id="images" />
             </entry>
           </file>
@@ -37,7 +107,7 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/week3/day3/Sketch1.png">
+            <entry file="file://$PROJECT_DIR$/week1/day1/Sketch4.png">
               <provider selected="true" editor-type-id="images" />
             </entry>
           </file>
@@ -73,10 +143,7 @@
       <list>
         <option value="$PROJECT_DIR$/week3/day1/compute_area.py" />
         <option value="$PROJECT_DIR$/week3/day1/compute_bmi.py" />
-        <option value="$PROJECT_DIR$/week1/day1/compute_salary.py" />
         <option value="$PROJECT_DIR$/week1/day1/student_mark.py" />
-        <option value="$PROJECT_DIR$/week1/day1/analyze_numbers.py" />
-        <option value="$PROJECT_DIR$/week1/day1/hello.py" />
         <option value="$PROJECT_DIR$/week1/day2/compute_salary.py" />
         <option value="$PROJECT_DIR$/week1/day2/check_day.py" />
         <option value="$PROJECT_DIR$/week1/day2/addition_quiz.py" />
@@ -122,6 +189,9 @@
         <option value="$PROJECT_DIR$/week3/day3/account.py" />
         <option value="$PROJECT_DIR$/week3/day3/object_copy.py" />
         <option value="$PROJECT_DIR$/week3/day3/list_basics.py" />
+        <option value="$PROJECT_DIR$/week1/day1/hello.py" />
+        <option value="$PROJECT_DIR$/week1/day1/analyze_numbers.py" />
+        <option value="$PROJECT_DIR$/week1/day1/compute_salary.py" />
       </list>
     </option>
   </component>
@@ -137,6 +207,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,19 +218,18 @@
             <path>
               <item name="intro_to_python_programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="intro_to_python_programming" type="462c0819:PsiDirectoryNode" />
-              <item name="week3" type="462c0819:PsiDirectoryNode" />
+              <item name="week1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="intro_to_python_programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="intro_to_python_programming" type="462c0819:PsiDirectoryNode" />
-              <item name="week3" type="462c0819:PsiDirectoryNode" />
-              <item name="day3" type="462c0819:PsiDirectoryNode" />
+              <item name="week1" type="462c0819:PsiDirectoryNode" />
+              <item name="day1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,8 +262,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.list_basics">
-    <configuration name="account" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.compute_salary">
+    <configuration name="analyze_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="intro_to_python_programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,11 +271,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week3/day3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week1/day1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week3/day3/account.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week1/day1/analyze_numbers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="compute_salary" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="intro_to_python_programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week1/day1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week1/day1/compute_salary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="intro_to_python_programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week1/day1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week1/day1/hello.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -256,55 +368,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_account" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="intro_to_python_programming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week3/day3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week3/day3/test_account.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_student" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="intro_to_python_programming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week3/day2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week3/day2/test_student.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.compute_salary" />
+        <item itemvalue="Python.analyze_numbers" />
+        <item itemvalue="Python.hello" />
         <item itemvalue="Python.list_basics" />
         <item itemvalue="Python.object_copy" />
-        <item itemvalue="Python.test_account" />
-        <item itemvalue="Python.account" />
-        <item itemvalue="Python.test_student" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +395,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2030303" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2090909" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -338,14 +408,14 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32512316" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32840723" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.635468" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.38423645" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.38752052" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SQL Formatter" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2030303" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2090909" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -358,7 +428,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32512316" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32840723" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.635468" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.38423645" />
+      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.38752052" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -366,13 +436,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/week4/day1/course.py" />
-    <entry file="file://$PROJECT_DIR$/week4/day1/circle.py" />
-    <entry file="file://$PROJECT_DIR$/week4/day1/shape.py" />
-    <entry file="file://$PROJECT_DIR$/week4/day1/test_shapes.py" />
-    <entry file="file://$PROJECT_DIR$/week4/day1/rectangle.py" />
-    <entry file="file://$PROJECT_DIR$/week4/day2/assign_grades.py" />
-    <entry file="file://$PROJECT_DIR$/week4/day2/words.txt" />
     <entry file="file://$PROJECT_DIR$/week4/day2/dict_basics.py" />
     <entry file="file://$PROJECT_DIR$/week4/day2/countries.txt" />
     <entry file="file://$PROJECT_DIR$/week4/day2/Sketch1.png" />
@@ -534,13 +597,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/week3/day3/list_basics.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/week3/day3/Sketch1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/week3/day3/list_basics.py">
+    <entry file="file://$PROJECT_DIR$/week1/day1/hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="100">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/day1/Sketch.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/day1/Sketch1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/day1/Sketch2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/day1/analyze_numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/day1/Sketch4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/day1/compute_salary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
