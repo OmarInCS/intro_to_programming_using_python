@@ -4,5 +4,6 @@ from week4.day3.rectangle import Rectangle
 r1 = Rectangle(4, 5, "red")
 c1 = Circle(5, "blue")
 
+print(r1.__dict__)
 r1.print_with_color()
 c1.print_with_color()

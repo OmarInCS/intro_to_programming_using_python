@@ -6,5 +6,8 @@ class Shape:
     def __init__(self, color):
         self.color = color
 
+    def get_area(self):
+        pass
+
     def print_with_color(self):
         cprint(self, self.color)
