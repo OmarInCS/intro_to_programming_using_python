@@ -24,6 +24,8 @@ class MainWindow(QWidget, Ui_Form):
         self.bt_add_dept.clicked.connect(self.show_add_dept_dialog)
         self.bt_del_dept.clicked.connect(self.delete_dept)
         self.bt_add_emp.clicked.connect(self.show_add_emp_dialog)
+        self.bt_del_emp.clicked.connect(self.delete_emp)
+        self.bt_export.clicked.connect(self.export_data)
         print()
 
     def load_depts(self):
@@ -81,8 +83,47 @@ class MainWindow(QWidget, Ui_Form):
         dialog.cb_jobs.addItems(jobs)
         depts = [d.dept_name for d in self.depts]
         dialog.cb_depts.addItems(depts)
-        dialog.exec()
+        choice = dialog.exec()
 
+        if choice == 1:
+            idx = dialog.cb_depts.currentIndex()
+            e1 = Employee(dialog.le_emp_id.text(),
+                          dialog.le_emp_name.text(),
+                          dialog.le_email.text(),
+                          dialog.de_hire_date.date().toString("yyyy-MM-dd"),
+                          dialog.cb_jobs.currentText(),
+                          dialog.le_salary.text(),
+                          self.depts[idx - 1].dept_id)
+            self.emps.append(e1)
+            self.load_emps()
+            e1.save_to_db()
+
+    def delete_emp(self):
+        idx = self.tb_emps.currentRow()
+        if idx >= 0:
+            self.tb_emps.removeRow(idx)
+            e1 = self.emps.pop(idx)
+            e1.delete_from_db()
+
+    def export_data(self):
+        info = QFileDialog().getSaveFileName(filter="CSV File (*.csv)")
+
+        if info[0] != "":
+            with open(info[0], "w") as file:
+                row_count = self.tb_emps.rowCount()
+                col_count = self.tb_emps.columnCount()
+
+                for i in range(col_count):
+                    header = self.tb_emps.horizontalHeaderItem(i).text()
+                    file.write(header + ",")
+                file.write("\n")
+
+                for i in range(row_count):
+                    if not self.tb_emps.isRowHidden(i):
+                        for j in range(col_count):
+                            value = self.tb_emps.item(i, j).text()
+                            file.write(value + ",")
+                        file.write("\n")
 
 app = QApplication([])
 window = MainWindow()
