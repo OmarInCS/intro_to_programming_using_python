@@ -1,8 +1,8 @@
 
-n1, n2, n3 = eval(input("Enter a 3 numbers: "))
+m1, m2, m3 = eval(input("Enter three marks: "))
 
-avg = (n1 + n2 + n3) / 3
+avg = (m1 + m2 + m3) / 3
 
-print("Max value: ", max(n1, n2, n3))
-print("Min value: ", min(n1, n2, n3))
-print("Average value: ", avg)
+print("The max:", max(m1, m2, m3))
+print("The min:", min(m1, m2, m3))
+print("The Average:", round(avg, 2))
