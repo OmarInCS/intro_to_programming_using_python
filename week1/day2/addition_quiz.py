@@ -1,6 +1,8 @@
 
 from random import randint
+# import random
 
+# x = random.randint(0, 10)
 x = randint(0, 10)
 y = randint(0, 10)
 
