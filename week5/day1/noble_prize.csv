@@ -1,0 +1,951 @@
+Year, Category, Winner
+2019, chemistry, John
+2019, chemistry, M. Stanley
+2019, chemistry, Akira
+2019, economics, Abhijit
+2019, economics, Esther
+2019, economics, Michael
+2019, literature, Peter
+2019, peace, Abiy
+2019, physics, James
+2019, physics, Michel
+2019, physics, Didier
+2019, medicine, William
+2019, medicine, Peter
+2019, medicine, Gregg
+2018, chemistry, Frances H.
+2018, chemistry, George P.
+2018, chemistry, Sir Gregory P.
+2018, economics, William D.
+2018, economics, Paul M.
+2018, literature, Olga
+2018, peace, Denis
+2018, peace, Nadia
+2018, physics, Arthur
+2018, physics, Gérard
+2018, physics, Donna
+2018, medicine, James P.
+2018, medicine, Tasuku
+2017, chemistry, Jacques
+2017, chemistry, Joachim
+2017, chemistry, Richard
+2017, economics, Richard H.
+2017, literature, Kazuo
+2017, peace, International Campaign to Abolish Nuclear Weapons (ICAN)
+2017, physics, Rainer
+2017, physics, Barry C.
+2017, physics, Kip S.
+2017, medicine, Jeffrey C.
+2017, medicine, Michael
+2017, medicine, Michael W.
+2016, chemistry, Jean-Pierre
+2016, chemistry, Sir J. Fraser
+2016, chemistry, Bernard L.
+2016, economics, Oliver
+2016, economics, Bengt
+2016, literature, Bob
+2016, peace, Juan Manuel
+2016, physics, David J.
+2016, physics, F. Duncan M.
+2016, physics, J. Michael
+2016, medicine, Yoshinori
+2015, chemistry, Tomas
+2015, chemistry, Paul
+2015, chemistry, Aziz
+2015, economics, Angus
+2015, literature, Svetlana
+2015, peace, National Dialogue Quartet 
+2015, physics, Takaaki
+2015, physics, Arthur B.
+2015, medicine, William C.
+2015, medicine, Satoshi
+2015, medicine, Youyou
+2014, chemistry, Eric
+2014, chemistry, Stefan W.
+2014, chemistry, William E.
+2014, economics, Jean
+2014, literature, Patrick
+2014, peace, Kailash
+2014, peace, Malala
+2014, physics, Isamu
+2014, physics, Hiroshi
+2014, physics, Shuji
+2014, medicine, John
+2014, medicine, May-Britt
+2014, medicine, Edvard I.
+2013, chemistry, Martin
+2013, chemistry, Michael
+2013, chemistry, Arieh
+2013, economics, Eugene F.
+2013, economics, Lars Peter
+2013, economics, Robert J.
+2013, literature, Alice
+2013, peace, Organisation for the Prohibition of Chemical Weapons
+2013, physics, François
+2013, physics, Peter
+2013, medicine, James E.
+2013, medicine, Randy W.
+2013, medicine, Thomas C.
+2012, chemistry, Robert J.
+2012, chemistry, Brian
+2012, economics, Alvin E.
+2012, economics, Lloyd S.
+2012, literature, Mo
+2012, peace, European Union (EU)
+2012, physics, Serge
+2012, physics, David J.
+2012, medicine, Sir John B.
+2012, medicine, Shinya
+2011, chemistry, Dan
+2011, economics, Thomas J.
+2011, economics, Christopher A.
+2011, literature, Tomas
+2011, peace, Ellen
+2011, peace, Leymah
+2011, peace, Tawakkol
+2011, physics, Saul
+2011, physics, Brian P.
+2011, physics, Adam G.
+2011, medicine, Bruce A.
+2011, medicine, Jules A.
+2011, medicine, Ralph M.
+2010, chemistry, Richard F.
+2010, chemistry, Ei-ichi
+2010, chemistry, Akira
+2010, economics, Peter A.
+2010, economics, Dale T.
+2010, economics, Christopher A.
+2010, literature, Mario
+2010, peace, Xiaobo
+2010, physics, Andre
+2010, physics, Konstantin
+2010, medicine, Robert G.
+2009, chemistry, Venkatraman
+2009, chemistry, Thomas A.
+2009, chemistry, Ada E.
+2009, economics, Elinor
+2009, economics, Oliver E.
+2009, literature, Herta
+2009, peace, Barack
+2009, physics, Charles K.
+2009, physics, Willard S.
+2009, physics, George E.
+2009, medicine, Elizabeth H.
+2009, medicine, Carol W.
+2009, medicine, Jack W.
+2008, chemistry, Osamu
+2008, chemistry, Martin
+2008, chemistry, Roger Y.
+2008, economics, Paul
+2008, literature, Jean-Marie Gustave
+2008, peace, Martti
+2008, physics, Yoichiro
+2008, physics, Makoto
+2008, physics, Toshihide
+2008, medicine, Harald
+2008, medicine, Françoise
+2008, medicine, Luc
+2007, chemistry, Gerhard
+2007, economics, Leonid
+2007, economics, Eric S.
+2007, economics, Roger B.
+2007, literature, Doris
+2007, peace, Intergovernmental Panel on Climate Change
+2007, peace, Al
+2007, physics, Albert
+2007, physics, Peter
+2007, medicine, Mario R.
+2007, medicine, Sir Martin J.
+2007, medicine, Oliver
+2006, chemistry, Roger D.
+2006, economics, Edmund S.
+2006, literature, Orhan
+2006, peace, Muhammad
+2006, peace, Grameen Bank
+2006, physics, John C.
+2006, physics, George F.
+2006, medicine, Andrew Z.
+2006, medicine, Craig C.
+2005, chemistry, Yves
+2005, chemistry, Robert H.
+2005, chemistry, Richard R.
+2005, economics, Robert J.
+2005, economics, Thomas C.
+2005, literature, Harold
+2005, peace, International Atomic Energy Agency
+2005, peace, Mohamed
+2005, physics, Roy J.
+2005, physics, John L.
+2005, physics, Theodor W.
+2005, medicine, Barry J.
+2005, medicine, J. Robin
+2004, chemistry, Aaron
+2004, chemistry, Avram
+2004, chemistry, Irwin
+2004, economics, Finn E.
+2004, economics, Edward C.
+2004, literature, Elfriede
+2004, peace, Wangari
+2004, physics, David J.
+2004, physics, H. David
+2004, physics, Frank
+2004, medicine, Richard
+2004, medicine, Linda B.
+2003, chemistry, Peter
+2003, chemistry, Roderick
+2003, economics, Robert F.
+2003, economics, Clive W.J.
+2003, literature, J. M.
+2003, peace, Shirin
+2003, physics, Alexei
+2003, physics, Vitaly L.
+2003, physics, Anthony J.
+2003, medicine, Paul C.
+2003, medicine, Sir Peter
+2002, chemistry, John B.
+2002, chemistry, Koichi
+2002, chemistry, Kurt
+2002, economics, Daniel
+2002, economics, Vernon L.
+2002, literature, Imre
+2002, peace, Jimmy
+2002, physics, Raymond
+2002, physics, Masatoshi
+2002, physics, Riccardo
+2002, medicine, Sydney
+2002, medicine, H. Robert
+2002, medicine, John E.
+2001, chemistry, William
+2001, chemistry, Ryoji
+2001, chemistry, Barry
+2001, economics, George A.
+2001, economics, A. Michael
+2001, economics, Joseph E.
+2001, literature, V. S.
+2001, peace, United Nations
+2001, peace, Kofi
+2001, physics, Eric
+2001, physics, Wolfgang
+2001, physics, Carl
+2001, medicine, Sir Paul
+2001, medicine, Leland
+2001, medicine, Tim
+2000, chemistry, Alan
+2000, chemistry, Alan
+2000, chemistry, Hideki
+2000, economics, James J.
+2000, economics, Daniel L.
+2000, literature, Xingjian
+2000, peace, Kim
+2000, physics, Zhores
+2000, physics, Herbert
+2000, physics, Jack
+2000, medicine, Arvid
+2000, medicine, Paul
+2000, medicine, Eric
+1999, chemistry, Ahmed
+1999, economics, Robert
+1999, literature, Günter
+1999, peace, Médecins Sans Frontières
+1999, physics, Gerardus
+1999, physics, Martinus J.G.
+1999, medicine, Günter
+1998, chemistry, Walter
+1998, chemistry, John
+1998, economics, Amartya
+1998, literature, José
+1998, peace, John
+1998, peace, David
+1998, physics, Robert B.
+1998, physics, Horst L.
+1998, physics, Daniel C.
+1998, medicine, Robert F.
+1998, medicine, Louis J.
+1998, medicine, Ferid
+1997, chemistry, Paul D.
+1997, chemistry, John E.
+1997, chemistry, Jens C.
+1997, economics, Robert C.
+1997, economics, Myron
+1997, literature, Dario
+1997, peace, International Campaign to Ban Landmines
+1997, peace, Jody
+1997, physics, Steven
+1997, physics, Claude
+1997, physics, William D.
+1997, medicine, Stanley B.
+1996, chemistry, Robert F.
+1996, chemistry, Sir Harold
+1996, chemistry, Richard E.
+1996, economics, James A.
+1996, economics, William
+1996, literature, Wislawa
+1996, peace, Carlos Filipe Ximenes
+1996, peace, José
+1996, physics, David M.
+1996, physics, Douglas D.
+1996, physics, Robert C.
+1996, medicine, Peter C.
+1996, medicine, Rolf M.
+1995, chemistry, Paul J.
+1995, chemistry, Mario J.
+1995, chemistry, F. Sherwood
+1995, economics, Robert E.
+1995, literature, Seamus
+1995, peace, Joseph
+1995, peace, Pugwash Conferences on Science and World Affairs
+1995, physics, Martin L.
+1995, physics, Frederick
+1995, medicine, Edward B.
+1995, medicine, Christiane
+1995, medicine, Eric F.
+1994, chemistry, George A.
+1994, economics, John C.
+1994, economics, John F.
+1994, economics, Reinhard
+1994, literature, Kenzaburo
+1994, peace, Yasser
+1994, peace, Shimon
+1994, peace, Yitzhak
+1994, physics, Bertram N.
+1994, physics, Clifford G.
+1994, medicine, Alfred G.
+1994, medicine, Martin
+1993, chemistry, Kary B.
+1993, chemistry, Michael
+1993, economics, Robert W.
+1993, economics, Douglass C.
+1993, literature, Toni
+1993, peace, Nelson
+1993, peace, F.W.
+1993, physics, Russell A.
+1993, physics, Joseph H.
+1993, medicine, Richard J.
+1993, medicine, Phillip A.
+1992, chemistry, Rudolph A.
+1992, economics, Gary
+1992, literature, Derek
+1992, peace, Rigoberta
+1992, physics, Georges
+1992, medicine, Edmond H.
+1992, medicine, Edwin G.
+1991, chemistry, Richard R.
+1991, economics, Ronald H.
+1991, literature, Nadine
+1991, peace, Aung San Suu Kyi
+1991, physics, Pierre-Gilles
+1991, medicine, Erwin
+1991, medicine, Bert
+1990, chemistry, Elias James
+1990, economics, Harry M.
+1990, economics, Merton H.
+1990, economics, William F.
+1990, literature, Octavio
+1990, peace, Mikhail
+1990, physics, Jerome I.
+1990, physics, Henry W.
+1990, physics, Richard E.
+1990, medicine, Joseph E.
+1990, medicine, E. Donnall
+1989, chemistry, Sidney
+1989, chemistry, Thomas R.
+1989, economics, Trygve
+1989, literature, Camilo José
+1989, peace, Lhamo
+1989, physics, Norman F.
+1989, physics, Hans G.
+1989, physics, Wolfgang
+1989, medicine, J. Michael
+1989, medicine, Harold E.
+1988, chemistry, Johann
+1988, chemistry, Robert
+1988, chemistry, Hartmut
+1988, economics, Maurice
+1988, literature, Naguib
+1988, peace, United Nations Peacekeeping Forces
+1988, physics, Leon M.
+1988, physics, Melvin
+1988, physics, Jack
+1988, medicine, Sir James W.
+1988, medicine, Gertrude B.
+1988, medicine, George H.
+1987, chemistry, Donald J.
+1987, chemistry, Jean-Marie
+1987, chemistry, Charles J.
+1987, economics, Robert M.
+1987, literature, Joseph
+1987, peace, Oscar
+1987, physics, J. Georg
+1987, physics, K. Alex
+1987, medicine, Susumu
+1986, chemistry, Dudley R.
+1986, chemistry, Yuan T.
+1986, chemistry, John C.
+1986, economics, James M.
+1986, literature, Wole
+1986, peace, Elie
+1986, physics, Ernst
+1986, physics, Gerd
+1986, physics, Heinrich
+1986, medicine, Stanley
+1986, medicine, Rita
+1985, chemistry, Herbert A.
+1985, chemistry, Jerome
+1985, economics, Franco
+1985, literature, Claude
+1985, peace, International Physicians for the Prevention of Nuclear War
+1985, physics, Klaus
+1985, medicine, Michael S.
+1985, medicine, Joseph L.
+1984, chemistry, Bruce
+1984, economics, Richard
+1984, literature, Jaroslav
+1984, peace, Desmond
+1984, physics, Carlo
+1984, physics, Simon
+1984, medicine, Niels K.
+1984, medicine, Georges J.F.
+1984, medicine, César
+1983, chemistry, Henry
+1983, economics, Gerard
+1983, literature, William
+1983, peace, Lech
+1983, physics, Subramanyan
+1983, physics, William A.
+1983, medicine, Barbara
+1982, chemistry, Aaron
+1982, economics, George J.
+1982, literature, Gabriel
+1982, peace, Alva
+1982, peace, Alfonso
+1982, physics, Kenneth G.
+1982, medicine, Sune K.
+1982, medicine, Bengt I.
+1982, medicine, John R.
+1981, chemistry, Kenichi
+1981, chemistry, Roald
+1981, economics, James
+1981, literature, Elias
+1981, peace, Office of the United Nations High Commissioner for Refugees
+1981, physics, Nicolaas
+1981, physics, Arthur L.
+1981, physics, Kai M.
+1981, medicine, Roger W.
+1981, medicine, David H.
+1981, medicine, Torsten N.
+1980, chemistry, Paul
+1980, chemistry, Walter
+1980, chemistry, Frederick
+1980, economics, Lawrence R.
+1980, literature, Czeslaw
+1980, peace, Adolfo
+1980, physics, James
+1980, physics, Val
+1980, medicine, Baruj
+1980, medicine, Jean
+1980, medicine, George D.
+1979, chemistry, Herbert C.
+1979, chemistry, Georg
+1979, economics, Theodore W.
+1979, economics, Sir Arthur
+1979, literature, Odysseus
+1979, peace, Anjezë Gonxhe
+1979, physics, Sheldon
+1979, physics, Abdus
+1979, physics, Steven
+1979, medicine, Allan M.
+1979, medicine, Godfrey N.
+1978, chemistry, Peter
+1978, economics, Herbert
+1978, literature, Isaac Bashevis
+1978, peace, Anwar
+1978, peace, Menachem
+1978, physics, Pyotr
+1978, physics, Arno
+1978, physics, Robert Woodrow
+1978, medicine, Werner
+1978, medicine, Daniel
+1978, medicine, Hamilton O.
+1977, chemistry, Ilya
+1977, economics, Bertil
+1977, economics, James E.
+1977, literature, Vicente
+1977, peace, Amnesty International
+1977, physics, Philip W.
+1977, physics, Sir Nevill F.
+1977, physics, John H.
+1977, medicine, Roger
+1977, medicine, Andrew V.
+1977, medicine, Rosalyn
+1976, chemistry, William
+1976, economics, Milton
+1976, literature, Saul
+1976, peace, Betty
+1976, peace, Mairead
+1976, physics, Burton
+1976, physics, Samuel C.C.
+1976, medicine, Baruch S.
+1976, medicine, D. Carleton
+1975, chemistry, John
+1975, chemistry, Vladimir
+1975, economics, Leonid Vitaliyevich
+1975, economics, Tjalling C.
+1975, literature, Eugenio
+1975, peace, Andrei
+1975, physics, Aage N.
+1975, physics, Ben R.
+1975, physics, James
+1975, medicine, David
+1975, medicine, Renato
+1975, medicine, Howard M.
+1974, chemistry, Paul J.
+1974, economics, Gunnar
+1974, economics, Friedrich
+1974, literature, Eyvind
+1974, literature, Harry
+1974, peace, Seán
+1974, peace, Eisaku
+1974, physics, Martin
+1974, physics, Antony
+1974, medicine, Albert
+1974, medicine, Christian
+1974, medicine, George E.
+1973, chemistry, Ernst Otto
+1973, chemistry, Geoffrey
+1973, economics, Wassily
+1973, literature, Patrick
+1973, peace, Henry
+1973, peace, Le Duc Tho
+1973, physics, Leo
+1973, physics, Ivar
+1973, physics, Brian D.
+1973, medicine, Karl
+1973, medicine, Konrad
+1973, medicine, Nikolaas
+1972, chemistry, Christian
+1972, chemistry, Stanford
+1972, chemistry, William H.
+1972, economics, John R.
+1972, economics, Kenneth J.
+1972, literature, Heinrich
+1972, physics, John
+1972, physics, Leon N.
+1972, physics, Robert
+1972, medicine, Gerald M.
+1972, medicine, Rodney R.
+1971, chemistry, Gerhard
+1971, economics, Simon
+1971, literature, Pablo
+1971, peace, Willy
+1971, physics, Dennis
+1971, medicine, Earl W.
+1970, chemistry, Luis
+1970, economics, Paul A.
+1970, literature, Alexandr
+1970, peace, Norman
+1970, physics, Hannes
+1970, physics, Louis
+1970, medicine, Sir Bernard
+1970, medicine, Ulf
+1970, medicine, Julius
+1969, chemistry, Derek
+1969, chemistry, Odd
+1969, economics, Ragnar
+1969, economics, Jan
+1969, literature, Samuel
+1969, peace, International Labour Organization
+1969, physics, Murray
+1969, medicine, Max
+1969, medicine, Alfred D.
+1969, medicine, Salvador E.
+1968, chemistry, Lars
+1968, literature, Yasunari
+1968, peace, René
+1968, physics, Luis
+1968, medicine, Robert W.
+1968, medicine, H. Gobind
+1968, medicine, Marshall W.
+1967, chemistry, Manfred
+1967, chemistry, Ronald G.W.
+1967, chemistry, George
+1967, literature, Miguel Angel
+1967, physics, Hans
+1967, medicine, Ragnar
+1967, medicine, Keffer
+1967, medicine, George
+1966, chemistry, Robert S.
+1966, literature, Shmuel
+1966, literature, Nelly
+1966, physics, Alfred
+1966, medicine, Peyton
+1966, medicine, Charles B.
+1965, chemistry, Robert B.
+1965, literature, Mikhail
+1965, peace, United Nations Children's Fund
+1965, physics, Sin-Itiro
+1965, physics, Julian
+1965, physics, Richard P.
+1965, medicine, François
+1965, medicine, André
+1965, medicine, Jacques
+1964, chemistry, Dorothy Crowfoot
+1964, literature, Jean-Paul
+1964, peace, Martin Luther
+1964, physics, Charles H.
+1964, physics, Nicolay G.
+1964, physics, Aleksandr M.
+1964, medicine, Konrad
+1964, medicine, Feodor
+1963, chemistry, Karl
+1963, chemistry, Giulio
+1963, literature, Giorgos
+1963, peace, International Committee of the Red Cross
+1963, peace, League of Red Cross Societies
+1963, physics, Eugene
+1963, physics, Maria
+1963, physics, J. Hans D.
+1963, medicine, Sir John
+1963, medicine, Alan
+1963, medicine, Andrew
+1962, chemistry, Max F.
+1962, chemistry, John C.
+1962, literature, John
+1962, peace, Linus
+1962, physics, Lev
+1962, medicine, Francis
+1962, medicine, James
+1962, medicine, Maurice
+1961, chemistry, Melvin
+1961, literature, Ivo
+1961, peace, Dag
+1961, physics, Robert
+1961, physics, Rudolf
+1961, medicine, Georg
+1960, chemistry, Willard F.
+1960, literature, Saint-John
+1960, peace, Albert
+1960, physics, Donald A.
+1960, medicine, Sir Frank Macfarlane
+1960, medicine, Peter
+1959, chemistry, Jaroslav
+1959, literature, Salvatore
+1959, peace, Philip
+1959, physics, Emilio
+1959, physics, Owen
+1959, medicine, Severo
+1959, medicine, Arthur
+1958, chemistry, Frederick
+1958, literature, Boris
+1958, peace, Georges
+1958, physics, Pavel A.
+1958, physics, Igor Y.
+1958, physics, Il´ja M.
+1958, medicine, George
+1958, medicine, Edward
+1958, medicine, Joshua
+1957, chemistry, Lord
+1957, literature, Albert
+1957, peace, Lester Bowles
+1957, physics, Chen Ning
+1957, physics, Tsung-Dao
+1957, medicine, Daniel
+1956, chemistry, Sir Cyril
+1956, chemistry, Nikolay
+1956, literature, Juan Ramón
+1956, physics, William B.
+1956, physics, John
+1956, physics, Walter H.
+1956, medicine, André F.
+1956, medicine, Werner
+1956, medicine, Dickinson W.
+1955, chemistry, Vincent
+1955, literature, Halldór
+1955, physics, Willis E.
+1955, physics, Polykarp
+1955, medicine, Hugo
+1954, chemistry, Linus
+1954, literature, Ernest
+1954, peace, Office of the United Nations High Commissioner for Refugees
+1954, physics, Max
+1954, physics, Walther
+1954, medicine, John F.
+1954, medicine, Thomas H.
+1954, medicine, Frederick C.
+1953, chemistry, Hermann
+1953, literature, Winston
+1953, peace, George C.
+1953, physics, Frits
+1953, medicine, Hans
+1953, medicine, Fritz
+1952, chemistry, Archer J.P.
+1952, chemistry, Richard L.M.
+1952, literature, François
+1952, peace, Albert
+1952, physics, Felix
+1952, physics, E. M.
+1952, medicine, Selman A.
+1951, chemistry, Edwin M.
+1951, chemistry, Glenn T.
+1951, literature, Pär
+1951, peace, Léon
+1951, physics, John
+1951, physics, Ernest T.S.
+1951, medicine, Max
+1950, chemistry, Otto
+1950, chemistry, Kurt
+1950, literature, Bertrand
+1950, peace, Ralph
+1950, physics, Cecil
+1950, medicine, Edward C.
+1950, medicine, Tadeus
+1950, medicine, Philip S.
+1949, chemistry, William F.
+1949, literature, William
+1949, peace, John
+1949, physics, Hideki
+1949, medicine, Walter
+1949, medicine, Egas
+1948, chemistry, Arne
+1948, literature, T.S.
+1948, physics, Patrick M.S.
+1948, medicine, Paul
+1947, chemistry, Sir Robert
+1947, literature, André
+1947, peace, Friends Service Council
+1947, peace, American Friends Service Committee
+1947, physics, Edward V.
+1947, medicine, Carl
+1947, medicine, Gerty
+1947, medicine, Bernardo
+1946, chemistry, James B.
+1946, chemistry, John H.
+1946, chemistry, Wendell M.
+1946, literature, Hermann
+1946, peace, Emily Greene
+1946, peace, John R.
+1946, physics, Percy W.
+1946, medicine, Hermann J.
+1945, chemistry, Artturi
+1945, literature, Gabriela
+1945, peace, Cordell
+1945, physics, Wolfgang
+1945, medicine, Sir Alexander
+1945, medicine, Ernst B.
+1945, medicine, Sir Howard
+1944, chemistry, Otto
+1944, literature, Johannes V.
+1944, peace, International Committee of the Red Cross
+1944, physics, Isidor Isaac
+1944, medicine, Joseph
+1944, medicine, Herbert S.
+1943, chemistry, George
+1943, physics, Otto
+1943, medicine, Henrik
+1943, medicine, Edward A.
+1939, chemistry, Adolf
+1939, chemistry, Leopold
+1939, literature, Frans Eemil
+1939, physics, Ernest
+1939, medicine, Gerhard
+1938, chemistry, Richard
+1938, literature, Pearl
+1938, peace, Nansen International Office for Refugees
+1938, physics, Enrico
+1938, medicine, Corneille
+1937, chemistry, Norman
+1937, chemistry, Paul
+1937, literature, Roger
+1937, peace, Robert
+1937, physics, Clinton
+1937, physics, George Paget
+1937, medicine, Albert
+1936, chemistry, Peter
+1936, literature, Eugene
+1936, peace, Carlos
+1936, physics, Victor F.
+1936, physics, Carl D.
+1936, medicine, Sir Henry
+1936, medicine, Otto
+1935, chemistry, Frédéric
+1935, chemistry, Irène
+1935, peace, Carl
+1935, physics, James
+1935, medicine, Hans
+1934, chemistry, Harold C.
+1934, literature, Luigi
+1934, peace, Arthur
+1934, medicine, George H.
+1934, medicine, George R.
+1934, medicine, William P.
+1933, literature, Ivan
+1933, peace, Sir Norman
+1933, physics, Erwin
+1933, physics, Paul A.M.
+1933, medicine, Thomas H.
+1932, chemistry, Irving
+1932, literature, John
+1932, physics, Werner
+1932, medicine, Sir Charles
+1932, medicine, Edgar
+1931, chemistry, Carl
+1931, chemistry, Friedrich
+1931, literature, Erik Axel
+1931, peace, Jane
+1931, peace, Nicholas Murray
+1931, medicine, Otto
+1930, chemistry, Hans
+1930, literature, Sinclair
+1930, peace, Nathan
+1930, physics, Sir Chandrasekhara Venkata
+1930, medicine, Karl
+1929, chemistry, Arthur
+1929, chemistry, Hans
+1929, literature, Thomas
+1929, peace, Frank B.
+1929, physics, Louis
+1929, medicine, Christiaan
+1929, medicine, Sir Frederick
+1928, chemistry, Adolf
+1928, literature, Sigrid
+1928, physics, Owen Willans
+1928, medicine, Charles
+1927, chemistry, Heinrich
+1927, literature, Henri
+1927, peace, Ferdinand
+1927, peace, Ludwig
+1927, physics, Arthur H.
+1927, physics, C.T.R.
+1927, medicine, Julius
+1926, chemistry, The
+1926, literature, Grazia
+1926, peace, Aristide
+1926, peace, Gustav
+1926, physics, Jean Baptiste
+1926, medicine, Johannes
+1925, chemistry, Richard
+1925, literature, George Bernard
+1925, peace, Sir Austen
+1925, peace, Charles G.
+1925, physics, James
+1925, physics, Gustav
+1924, literature, Wladyslaw
+1924, physics, Manne
+1924, medicine, Willem
+1923, chemistry, Fritz
+1923, literature, William Butler
+1923, physics, Robert A.
+1923, medicine, Frederick G.
+1923, medicine, John
+1922, chemistry, Francis W.
+1922, literature, Jacinto
+1922, peace, Fridtjof
+1922, physics, Niels
+1922, medicine, Archibald V.
+1922, medicine, Otto
+1921, chemistry, Frederick
+1921, literature, Anatole
+1921, peace, Hjalmar
+1921, peace, Christian
+1921, physics, Albert
+1920, chemistry, Walther
+1920, literature, Knut
+1920, peace, Léon
+1920, physics, Charles Edouard
+1920, medicine, August
+1919, literature, Carl
+1919, peace, Woodrow
+1919, physics, Johannes
+1919, medicine, Jules
+1918, chemistry, Fritz
+1918, physics, Max
+1917, literature, Karl
+1917, literature, Henrik
+1917, peace, International Committee of the Red Cross
+1917, physics, Charles Glover
+1916, literature, Verner
+1915, chemistry, Richard
+1915, literature, Romain
+1915, physics, William
+1915, physics, Lawrence
+1914, chemistry, Theodore W.
+1914, physics, Max
+1914, medicine, Robert
+1913, chemistry, Alfred
+1913, literature, Rabindranath
+1913, peace, Henri
+1913, physics, Heike
+1913, medicine, Charles
+1912, chemistry, Victor
+1912, chemistry, Paul
+1912, literature, Gerhart
+1912, peace, Elihu
+1912, physics, Gustaf
+1912, medicine, Alexis
+1911, chemistry, Marie
+1911, literature, Maurice
+1911, peace, Tobias
+1911, peace, Alfred
+1911, physics, Wilhelm
+1911, medicine, Allvar
+1910, chemistry, Otto
+1910, literature, Paul
+1910, peace, Permanent International Peace Bureau
+1910, physics, Johannes Diderik
+1910, medicine, Albrecht
+1909, chemistry, Wilhelm
+1909, literature, Selma
+1909, peace, Auguste
+1909, peace, Paul Henri
+1909, physics, Guglielmo
+1909, physics, Ferdinand
+1909, medicine, Theodor
+1908, chemistry, Ernest
+1908, literature, Rudolf
+1908, peace, Klas Pontus
+1908, peace, Fredrik
+1908, physics, Gabriel
+1908, medicine, Ilya
+1908, medicine, Paul
+1907, chemistry, Eduard
+1907, literature, Rudyard
+1907, peace, Ernesto Teodoro
+1907, peace, Louis
+1907, physics, Albert A.
+1907, medicine, Alphonse
+1906, chemistry, Henri
+1906, literature, Giosuè
+1906, peace, Theodore
+1906, physics, J.J.
+1906, medicine, Camillo
+1906, medicine, Santiago
+1905, chemistry, Adolf
+1905, literature, Henryk
+1905, peace, Bertha
+1905, physics, Philipp
+1905, medicine, Robert
+1904, chemistry, Sir William
+1904, literature, Frédéric
+1904, literature, José
+1904, peace, Institute of International Law
+1904, physics, Lord
+1904, medicine, Ivan
+1903, chemistry, Svante
+1903, literature, Bjørnstjerne
+1903, peace, Randal
+1903, physics, Henri
+1903, physics, Pierre
+1903, physics, Marie
+1903, medicine, Niels Ryberg
+1902, chemistry, Emil
+1902, literature, Theodor
+1902, peace, Élie
+1902, peace, Albert
+1902, physics, Hendrik A.
+1902, physics, Pieter
+1902, medicine, Ronald
+1901, chemistry, Jacobus H.
+1901, literature, Sully
+1901, peace, Henry
+1901, peace, Frédéric
+1901, physics, Wilhelm Conrad
+1901, medicine, Emil
