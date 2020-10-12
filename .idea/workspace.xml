@@ -2,11 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58ee5e6e-03e5-4ea8-b5e7-9d121a4a4528" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/week2/day1/addition_quiz_v2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week2/day1/addition_quiz_v3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week2/day1/guess_game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week2/day1/loops_basics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/day1/analyze_marks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day1/Sketch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day1/Sketch1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day1/Sketch2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day1/analyze_numbers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day1/compute_pct.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day1/compute_salary.py" beforeDir="false" afterPath="$PROJECT_DIR$/week1/day1/compute_salary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day1/hello.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day2/Sketch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day2/Sketch1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day2/addition_quiz.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day2/compute_bmi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day2/compute_pct_v2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day2/compute_salary_v2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day3/Sketch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day3/Sketch1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day3/Sketch2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day3/check_day.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day3/string_basics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/day3/validate_plate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day1/Sketch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day1/Sketch1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day1/addition_quiz_v2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day1/addition_quiz_v3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day1/guess_game.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/day1/loops_basics.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,48 +37,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6522727">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/week2/day1/addition_quiz_v2.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="279">
-                  <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/week2/day1/addition_quiz_v3.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="184">
-                  <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/week2/day1/guess_game.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="134">
-                  <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/week2/day1/Sketch1.png">
-              <provider selected="true" editor-type-id="images" />
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/week1/day1/analyze_marks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week1/day1/Sketch2.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,7 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/week2/day2/addition_quiz_v3.py" />
         <option value="$PROJECT_DIR$/week2/day2/guess_game.py" />
         <option value="$PROJECT_DIR$/week2/day2/addition_quiz_v4.py" />
         <option value="$PROJECT_DIR$/hr_system/model/department.py" />
@@ -109,7 +104,6 @@
         <option value="$PROJECT_DIR$/week4/day2/copy_objects.py" />
         <option value="$PROJECT_DIR$/week4/day2/test_account.py" />
         <option value="$PROJECT_DIR$/week4/day2/account.py" />
-        <option value="$PROJECT_DIR$/week1/day1/compute_salary.py" />
         <option value="$PROJECT_DIR$/week1/day1/compute_pct.py" />
         <option value="$PROJECT_DIR$/week1/day1/analyze_numbers.py" />
         <option value="$PROJECT_DIR$/week1/day2/compute_salary_v2.py" />
@@ -135,6 +129,8 @@
         <option value="$PROJECT_DIR$/week2/day1/addition_quiz_v2.py" />
         <option value="$PROJECT_DIR$/week2/day1/addition_quiz_v3.py" />
         <option value="$PROJECT_DIR$/week2/day1/guess_game.py" />
+        <option value="$PROJECT_DIR$/week1/day1/compute_salary.py" />
+        <option value="$PROJECT_DIR$/week1/day1/analyze_marks.py" />
       </list>
     </option>
   </component>
@@ -161,12 +157,12 @@
             <path>
               <item name="intro_to_python_programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="intro_to_python_programming" type="462c0819:PsiDirectoryNode" />
-              <item name="week2" type="462c0819:PsiDirectoryNode" />
+              <item name="week1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="intro_to_python_programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="intro_to_python_programming" type="462c0819:PsiDirectoryNode" />
-              <item name="week2" type="462c0819:PsiDirectoryNode" />
+              <item name="week1" type="462c0819:PsiDirectoryNode" />
               <item name="day1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -206,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.guess_game">
+  <component name="RunManager" selected="Python.analyze_marks">
     <configuration name="addition_quiz_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="intro_to_python_programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -249,6 +245,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="analyze_marks" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="intro_to_python_programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week1/day1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week1/day1/analyze_marks.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="compute_salary" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="intro_to_python_programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week1/day1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week1/day1/compute_salary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="guess_game" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="intro_to_python_programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -270,55 +308,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="loops_basics" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="intro_to_python_programming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week2/day1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week2/day1/loops_basics.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="validate_plate" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="intro_to_python_programming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week1/day3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week1/day3/validate_plate.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.analyze_marks" />
+        <item itemvalue="Python.compute_salary" />
         <item itemvalue="Python.guess_game" />
         <item itemvalue="Python.addition_quiz_v3" />
         <item itemvalue="Python.addition_quiz_v2" />
-        <item itemvalue="Python.loops_basics" />
-        <item itemvalue="Python.validate_plate" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +335,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22954546" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22954546" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -352,7 +348,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3234811" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32840723" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.635468" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.24302134" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.3366174" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -380,7 +376,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/week4/day1/Sketch2.png" />
     <entry file="file://$PROJECT_DIR$/week4/day1/rectangle.py" />
     <entry file="file://$PROJECT_DIR$/week4/day1/test_patient.py" />
     <entry file="file://$PROJECT_DIR$/week4/day1/patient.py" />
@@ -399,16 +394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week1/day1/Sketch.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week1/day1/compute_salary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week1/day1/compute_pct.py" />
     <entry file="file://$PROJECT_DIR$/week1/day1/analyze_numbers.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -416,9 +401,6 @@
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week1/day1/Sketch2.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/week1/day2/compute_pct_v2.py" />
     <entry file="file://$PROJECT_DIR$/week1/day2/compute_bmi.py" />
@@ -555,10 +537,10 @@
     <entry file="file://$PROJECT_DIR$/week2/day1/Sketch1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/week2/day1/addition_quiz_v2.py">
+    <entry file="file://$PROJECT_DIR$/week2/day1/guess_game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="134">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -569,10 +551,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week2/day1/guess_game.py">
+    <entry file="file://$PROJECT_DIR$/week2/day1/addition_quiz_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="279">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/day1/Sketch.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/day1/compute_salary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/day1/Sketch2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/day1/analyze_marks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
