@@ -23,3 +23,20 @@ class Department:
 
             return result
 
+    def save_to_db(self):
+        db_path = "C:\\Users\\OmarKarem\\SemicolonGD\\Python\\intro_to_python_programming\\hr_system\\model\\hr.db"
+
+        with connect(db_path) as conn:
+            cur = conn.cursor()
+            sql = "insert into departments values (:dept_id, :dept_name, :loc_id)"
+            cur.execute(sql, self.__dict__)
+            conn.commit()
+
+    def delete_from_db(self):
+        db_path = "C:\\Users\\OmarKarem\\SemicolonGD\\Python\\intro_to_python_programming\\hr_system\\model\\hr.db"
+
+        with connect(db_path) as conn:
+            cur = conn.cursor()
+            sql = "delete from departments where department_id = :dept_id"
+            cur.execute(sql, self.__dict__)
+            conn.commit()

@@ -1,5 +1,6 @@
 
 from PyQt5.QtWidgets import *
+from PyQt5.uic import loadUi
 
 from hr_system.model.department import Department
 from hr_system.model.employee import Employee
@@ -20,6 +21,9 @@ class MyWidget(QWidget, Ui_Form):
 
         self.cb_depts.currentIndexChanged.connect(self.filter_emps_by_dept)
         self.le_search.textChanged.connect(self.filter_emps_by_name)
+        self.bt_add_dept.clicked.connect(self.show_add_dept_dialog)
+        self.bt_del_dept.clicked.connect(self.delete_dept)
+        self.bt_del_emp.clicked.connect(self.delete_emp)
         print()
 
     def load_depts(self):
@@ -48,6 +52,34 @@ class MyWidget(QWidget, Ui_Form):
             for i, e in enumerate(self.emps):
                 if not e.emp_name.lower().startswith(search_term):
                     self.tb_emps.hideRow(i)
+
+    def show_add_dept_dialog(self):
+        dialog = loadUi("../view/add_dept.ui")
+        locs = {str(d.loc_id) for d in self.depts}
+        dialog.cb_locs.addItems(locs)
+        choice = dialog.exec()
+
+        if choice == 1:
+            d_new = Department(dialog.le_dept_id.text(),
+                               dialog.le_dept_name.text(),
+                               dialog.cb_locs.currentText())
+            self.cb_depts.addItem(d_new.dept_name)
+            self.depts.append(d_new)
+            d_new.save_to_db()
+
+    def delete_dept(self):
+        idx = self.cb_depts.currentIndex()
+        if idx != 0:
+            d = self.depts.pop(idx - 1)
+            self.cb_depts.removeItem(idx)
+            d.delete_from_db()
+
+    def delete_emp(self):
+        idx = self.tb_emps.currentRow()
+        if idx != -1:
+            e = self.emps.pop(idx)
+            self.tb_emps.removeRow(idx)
+            e.delete_from_db()
 
 
 app = QApplication([])

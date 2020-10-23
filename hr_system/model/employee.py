@@ -26,3 +26,12 @@ class Employee:
             result = [Employee(*row) for row in result]
 
             return result
+
+    def delete_from_db(self):
+        db_path = "C:\\Users\\OmarKarem\\SemicolonGD\\Python\\intro_to_python_programming\\hr_system\\model\\hr.db"
+
+        with connect(db_path) as conn:
+            cur = conn.cursor()
+            sql = "delete from employees where employee_id = :emp_id"
+            cur.execute(sql, self.__dict__)
+            conn.commit()
