@@ -35,3 +35,12 @@ class Employee:
             sql = "delete from employees where employee_id = :emp_id"
             cur.execute(sql, self.__dict__)
             conn.commit()
+
+    def save_to_db(self):
+        db_path = "C:\\Users\\OmarKarem\\SemicolonGD\\Python\\intro_to_python_programming\\hr_system\\model\\hr.db"
+
+        with connect(db_path) as conn:
+            cur = conn.cursor()
+            sql = "insert into employees (employee_id, last_name, email, hire_date, job_id, salary, department_id) values (:emp_id, :emp_name, :email, :hire_date, :job_id, :salary, :dept_id)"
+            cur.execute(sql, self.__dict__)
+            conn.commit()
