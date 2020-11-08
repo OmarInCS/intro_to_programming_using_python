@@ -22,6 +22,9 @@ class MainWindow(QWidget, Ui_Form):
 
         self.cb_depts.currentIndexChanged.connect(self.filter_emps_by_dept)
         self.le_search.textChanged.connect(self.filter_emps_by_name)
+        self.bt_add_dept.clicked.connect(self.show_add_dept_dialog)
+        self.bt_del_dept.clicked.connect(self.delete_dept)
+        self.bt_add_emp.clicked.connect(self.show_add_emp_dialog)
         print()
 
     def load_depts(self):
@@ -52,6 +55,30 @@ class MainWindow(QWidget, Ui_Form):
                 if not e.emp_name.lower().startswith(query):
                     self.tb_emps.hideRow(i)
 
+    def show_add_dept_dialog(self):
+        dialog = loadUi("../view/add_dept.ui")
+        locs = {str(d.loc_id) for d in self.depts}
+        dialog.cb_locs.addItems(locs)
+        choice = dialog.exec()
+
+        if choice == 1:
+            d = Department(dialog.le_dept_id.text(),
+                           dialog.le_dept_name.text(),
+                           dialog.cb_locs.currentText())
+            self.cb_depts.addItem(d.dept_name)
+            self.depts.append(d)
+            d.save_to_db()
+
+    def delete_dept(self):
+        idx = self.cb_depts.currentIndex()
+        if idx != 0:
+            self.cb_depts.removeItem(idx)
+            d = self.depts.pop(idx - 1)
+            d.delete_from_db()
+
+    def show_add_emp_dialog(self):
+        dialog = loadUi("../view/add_emp.ui")
+        dialog.exec()
 
 app = QApplication([])
 window = MainWindow()
