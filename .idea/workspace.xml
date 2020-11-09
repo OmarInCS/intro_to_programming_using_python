@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58ee5e6e-03e5-4ea8-b5e7-9d121a4a4528" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hr_system/controller/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/hr_system/controller/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hr_system/model/employee.py" beforeDir="false" afterPath="$PROJECT_DIR$/hr_system/model/employee.py" afterDir="false" />
     </list>
@@ -13,39 +14,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hr_system/controller/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="121" column="16" lean-forward="true" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
+            <state relative-caret-position="286">
+              <caret line="135" selection-start-line="135" selection-end-line="135" />
               <folding>
-                <element signature="e#835#914#0" />
-                <element signature="e#949#1189#0" />
-                <element signature="e#1239#1451#0" />
-                <element signature="e#1496#1733#0" />
-                <element signature="e#1779#2234#0" />
-                <element signature="e#2271#2439#0" />
-                <element signature="e#2576#3420#0" />
-                <element signature="e#3456#3615#0" />
+                <element signature="e#3766#4511#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hr_system/model/department.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="36" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hr_system/model/employee.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+            <state relative-caret-position="122">
+              <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -78,7 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/week3/day1/rectangle.py" />
         <option value="$PROJECT_DIR$/week3/day1/test_rectangle.py" />
         <option value="$PROJECT_DIR$/week3/day1/patient.py" />
         <option value="$PROJECT_DIR$/week3/day1/test_patient.py" />
@@ -127,8 +111,9 @@
         <option value="$PROJECT_DIR$/week4/day2/connect_db.py" />
         <option value="$PROJECT_DIR$/week4/day2/employee.py" />
         <option value="$PROJECT_DIR$/hr_system/model/department.py" />
-        <option value="$PROJECT_DIR$/hr_system/model/employee.py" />
+        <option value="$PROJECT_DIR$/week4/print_1_100_recursion.py" />
         <option value="$PROJECT_DIR$/hr_system/controller/main.py" />
+        <option value="$PROJECT_DIR$/hr_system/model/employee.py" />
       </list>
     </option>
   </component>
@@ -183,7 +168,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hr_system/view" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/hr_system" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -233,7 +218,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="read_write_files" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="print_1_100_recursion" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="intro_to_python_programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,11 +226,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week4/day2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week4/day2/read_write_files.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week4/print_1_100_recursion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,7 +239,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_course" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="room" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="intro_to_python_programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -262,11 +247,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week4/day1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week3/day2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week4/day1/test_course.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week3/day2/room.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -275,7 +260,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_rectangle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_customer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="intro_to_python_programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -283,11 +268,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week3/day3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week3/day2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week3/day3/test_rectangle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week3/day2/test_customer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -296,7 +281,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_shapes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_room" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="intro_to_python_programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -304,11 +289,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week4/day1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week3/day2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week4/day1/test_shapes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week3/day2/test_room.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -320,10 +305,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.test_shapes" />
-        <item itemvalue="Python.test_rectangle" />
-        <item itemvalue="Python.test_course" />
-        <item itemvalue="Python.read_write_files" />
+        <item itemvalue="Python.test_room" />
+        <item itemvalue="Python.test_customer" />
+        <item itemvalue="Python.room" />
+        <item itemvalue="Python.print_1_100_recursion" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +329,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18863636" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19772728" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -357,7 +342,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3234811" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32840723" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.635468" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.27586207" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.27586207" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -396,7 +381,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/week4/day2/copy_file.py" />
     <entry file="file://$PROJECT_DIR$/week4/day2/read_write_jsons.py" />
     <entry file="file://$PROJECT_DIR$/week4/day2/menu_items.json" />
     <entry file="file://$PROJECT_DIR$/week4/day2/exceptions.py" />
@@ -509,34 +493,28 @@
     <entry file="file://$PROJECT_DIR$/hr_system/view/add_emp.ui">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hr_system/model/employee.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/week4/print_1_100_recursion.py" />
     <entry file="file://$PROJECT_DIR$/hr_system/model/department.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="36" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="36" />
+        <state relative-caret-position="900">
+          <caret line="36" selection-start-line="30" selection-start-column="4" selection-end-line="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hr_system/controller/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="121" column="16" lean-forward="true" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
+        <state relative-caret-position="286">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
           <folding>
-            <element signature="e#835#914#0" />
-            <element signature="e#949#1189#0" />
-            <element signature="e#1239#1451#0" />
-            <element signature="e#1496#1733#0" />
-            <element signature="e#1779#2234#0" />
-            <element signature="e#2271#2439#0" />
-            <element signature="e#2576#3420#0" />
-            <element signature="e#3456#3615#0" />
+            <element signature="e#3766#4511#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hr_system/model/employee.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
         </state>
       </provider>
     </entry>

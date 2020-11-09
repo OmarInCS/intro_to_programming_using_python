@@ -28,6 +28,7 @@ class MyWidget(QWidget, Ui_Form):
         self.bt_add_emp.clicked.connect(self.show_add_emp_dialog)
         self.bt_del_emp.clicked.connect(self.delete_emp)
         self.bt_export.clicked.connect(self.export_data)
+        # TODO: Add the new connections
         print()
 
     def load_depts(self):
@@ -126,6 +127,22 @@ class MyWidget(QWidget, Ui_Form):
                             data = self.tb_emps.item(i, j).text()
                             file.write(data + ",")
                         file.write("\n")
+
+    '''
+        TODO: add a method named filter_emps_by_min_salary, the method
+        should read a min salary from a LineEdit in the GUI and filter the table
+        to show only the employees with salaries greater than or equal to the 
+        input salary
+    '''
+
+    '''
+        TODO: add a method for editing an employee data, the method should
+        find the selected row from the table, then find the corresponding employee object
+        from the employees list, then load the 'add_emp.ui' dialog and populate it with
+        the employee data. make the 'le_emp_id' field readonly, allow the user to change
+        the other values then save it by updating the employee data in the database and 
+        the displayed table
+    '''
 
 
 app = QApplication([])

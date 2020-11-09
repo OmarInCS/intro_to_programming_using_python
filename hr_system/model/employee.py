@@ -40,3 +40,15 @@ class Employee:
             sql = "DELETE FROM employees WHERE employee_id = :emp_id"
             cur.execute(sql, self.__dict__)
             conn.commit()
+
+    def update_db(self):
+        db_path = "C:/sqlite/db/hr.db"
+
+        with connect(db_path) as conn:
+            cur = conn.cursor()
+            sql = '''UPDATE employees 
+                  SET (last_name, email, hire_date, job_id, salary, department_id) = 
+                  (:emp_name, :email, :hire_date, :job_id, :salary, :dept_id) 
+                  WHERE employee_id = :emp_id'''
+            cur.execute(sql, self.__dict__)
+            conn.commit()
