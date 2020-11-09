@@ -25,6 +25,8 @@ class MainWindow(QWidget, Ui_Form):
         self.bt_add_dept.clicked.connect(self.show_add_dept_dialog)
         self.bt_del_dept.clicked.connect(self.delete_dept)
         self.bt_add_emp.clicked.connect(self.show_add_emp_dialog)
+        self.bt_del_emp.clicked.connect(self.delete_emp)
+        self.bt_edit_emp.clicked.connect(self.edit_emp)
         print()
 
     def load_depts(self):
@@ -78,7 +80,68 @@ class MainWindow(QWidget, Ui_Form):
 
     def show_add_emp_dialog(self):
         dialog = loadUi("../view/add_emp.ui")
-        dialog.exec()
+        dialog.de_hire_date.setDate(date.today())
+        jobs = {str(e.job_id) for e in self.emps}
+        dialog.cb_jobs.addItems(jobs)
+        depts = [d.dept_name for d in self.depts]
+        dialog.cb_depts.addItems(depts)
+        choice = dialog.exec()
+
+        if choice == 1:
+            idx = dialog.cb_depts.currentIndex()
+            e = Employee(dialog.le_emp_id.text(),
+                         dialog.le_emp_name.text(),
+                         dialog.le_email.text(),
+                         dialog.de_hire_date.date().toString("yyyy-MM-dd"),
+                         dialog.cb_jobs.currentText(),
+                         dialog.le_salary.text(),
+                         self.depts[idx - 1].dept_id)
+            self.emps.append(e)
+            self.load_emps()
+            e.save_to_db()
+
+    def delete_emp(self):
+        idx = self.tb_emps.currentRow()
+        if idx != -1:
+            self.tb_emps.removeRow(idx)
+            e = self.emps.pop(idx)
+            e.delete_from_db()
+
+    def edit_emp(self):
+        idx = self.tb_emps.currentRow()
+        if idx != -1:
+            e = self.emps[idx]
+            dialog = loadUi("../view/add_emp.ui")
+            jobs = {str(e.job_id) for e in self.emps}
+            dialog.cb_jobs.addItems(jobs)
+            depts = [d.dept_name for d in self.depts]
+            dialog.cb_depts.addItems(depts)
+
+            dialog.le_emp_id.setText(str(e.emp_id))
+            dialog.le_emp_name.setText(e.emp_name)
+            dialog.le_email.setText(e.email)
+            dialog.de_hire_date.setDate(date.fromisoformat(e.hire_date))
+            dialog.cb_jobs.setCurrentText(str(e.job_id))
+            dialog.le_salary.setText(str(e.salary))
+            name = [d.dept_name for d in self.depts if d.dept_id == e.dept_id][0]
+            dialog.cb_depts.setCurrentText(name)
+
+            dialog.le_emp_id.setEnabled(False)
+            choice = dialog.exec()
+
+            if choice == 1:
+                idx = dialog.cb_depts.currentIndex()
+                e.emp_id = dialog.le_emp_id.text()
+                e.emp_name = dialog.le_emp_name.text()
+                e.email = dialog.le_email.text()
+                e.hire_date = dialog.de_hire_date.date().toString("yyyy-MM-dd")
+                e.job_id = dialog.cb_jobs.currentText()
+                e.salary = dialog.le_salary.text()
+                e.dept_id = self.depts[idx - 1].dept_id
+
+                self.load_emps()
+                e.update_db()
+
 
 app = QApplication([])
 window = MainWindow()
