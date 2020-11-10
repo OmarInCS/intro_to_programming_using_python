@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58ee5e6e-03e5-4ea8-b5e7-9d121a4a4528" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/week4/print_1_100_recursion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hr_system/controller/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/hr_system/controller/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr_system/model/employee.py" beforeDir="false" afterPath="$PROJECT_DIR$/hr_system/model/employee.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,49 +13,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hr_system/controller/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="193">
+              <caret line="158" column="42" lean-forward="true" selection-start-line="158" selection-start-column="42" selection-end-line="158" selection-end-column="42" />
               <folding>
-                <element signature="e#886#965#0" />
-                <element signature="e#1000#1240#0" />
-                <element signature="e#1285#1534#0" />
-                <element signature="e#1579#1816#0" />
-                <element signature="e#1862#2317#0" />
-                <element signature="e#2354#2522#0" />
-                <element signature="e#2567#3411#0" />
-                <element signature="e#3447#3606#0" />
+                <element signature="e#999#1078#0" />
+                <element signature="e#1113#1353#0" />
+                <element signature="e#1398#1647#0" />
+                <element signature="e#1692#1929#0" />
+                <element signature="e#1975#2430#0" />
+                <element signature="e#2467#2635#0" />
+                <element signature="e#2680#3524#0" />
+                <element signature="e#3560#3719#0" />
                 <element signature="e#3753#5170#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/week4/print_1_100_recursion.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hr_system/model/employee.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hr_system/model/department.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -138,9 +109,9 @@
         <option value="$PROJECT_DIR$/week4/day2/connect_db.py" />
         <option value="$PROJECT_DIR$/week4/day2/employee.py" />
         <option value="$PROJECT_DIR$/hr_system/model/department.py" />
-        <option value="$PROJECT_DIR$/hr_system/controller/main.py" />
-        <option value="$PROJECT_DIR$/hr_system/model/employee.py" />
         <option value="$PROJECT_DIR$/week4/print_1_100_recursion.py" />
+        <option value="$PROJECT_DIR$/hr_system/model/employee.py" />
+        <option value="$PROJECT_DIR$/hr_system/controller/main.py" />
       </list>
     </option>
   </component>
@@ -156,6 +127,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,18 +138,29 @@
             <path>
               <item name="intro_to_python_programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="intro_to_python_programming" type="462c0819:PsiDirectoryNode" />
-              <item name="week4" type="462c0819:PsiDirectoryNode" />
+              <item name="hr_system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intro_to_python_programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="intro_to_python_programming" type="462c0819:PsiDirectoryNode" />
+              <item name="hr_system" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intro_to_python_programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="intro_to_python_programming" type="462c0819:PsiDirectoryNode" />
+              <item name="hr_system" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hr_system/view" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/hr_system" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -205,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.print_1_100_recursion">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="intro_to_python_programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -313,11 +296,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.print_1_100_recursion" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.test_room" />
         <item itemvalue="Python.test_customer" />
         <item itemvalue="Python.room" />
+        <item itemvalue="Python.print_1_100_recursion" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +321,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19166666" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20075758" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -502,42 +485,36 @@
     <entry file="file://$PROJECT_DIR$/hr_system/view/add_emp.ui">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/week4/print_1_100_recursion.py" />
     <entry file="file://$PROJECT_DIR$/hr_system/model/department.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        <state relative-caret-position="900">
+          <caret line="36" selection-start-line="30" selection-start-column="4" selection-end-line="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hr_system/model/employee.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+        <state relative-caret-position="1075">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hr_system/controller/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="193">
+          <caret line="158" column="42" lean-forward="true" selection-start-line="158" selection-start-column="42" selection-end-line="158" selection-end-column="42" />
           <folding>
-            <element signature="e#886#965#0" />
-            <element signature="e#1000#1240#0" />
-            <element signature="e#1285#1534#0" />
-            <element signature="e#1579#1816#0" />
-            <element signature="e#1862#2317#0" />
-            <element signature="e#2354#2522#0" />
-            <element signature="e#2567#3411#0" />
-            <element signature="e#3447#3606#0" />
+            <element signature="e#999#1078#0" />
+            <element signature="e#1113#1353#0" />
+            <element signature="e#1398#1647#0" />
+            <element signature="e#1692#1929#0" />
+            <element signature="e#1975#2430#0" />
+            <element signature="e#2467#2635#0" />
+            <element signature="e#2680#3524#0" />
+            <element signature="e#3560#3719#0" />
             <element signature="e#3753#5170#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week4/print_1_100_recursion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
