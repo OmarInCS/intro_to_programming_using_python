@@ -10,8 +10,6 @@ y = randint(0, 10)
 answer = eval(input(f"What's {x} + {y} ? "))
 
 if answer == x+y:
-    print("Correct Answer")
+    print("Correct")
 else:
-    print("Wrong Answer")
-
-
+    print("Wrong")
