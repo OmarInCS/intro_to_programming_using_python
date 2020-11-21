@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58ee5e6e-03e5-4ea8-b5e7-9d121a4a4528" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hr_system/controller/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr_system/model/department.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr_system/model/employee.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="58ee5e6e-03e5-4ea8-b5e7-9d121a4a4528" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hr_system/controller/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="30" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="30" />
+            <state relative-caret-position="375">
+              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
               <folding>
                 <element signature="e#1#30#0" expanded="true" />
               </folding>
@@ -190,17 +185,6 @@
               <item name="intro_to_python_programming" type="462c0819:PsiDirectoryNode" />
               <item name="hr_system" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intro_to_python_programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro_to_python_programming" type="462c0819:PsiDirectoryNode" />
-              <item name="week4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intro_to_python_programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro_to_python_programming" type="462c0819:PsiDirectoryNode" />
-              <item name="week4" type="462c0819:PsiDirectoryNode" />
-              <item name="day2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -372,7 +356,7 @@
     <frame x="1358" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.12548262" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12483913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -667,8 +651,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hr_system/controller/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="30" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="30" />
+        <state relative-caret-position="375">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
             <element signature="e#1#30#0" expanded="true" />
           </folding>
