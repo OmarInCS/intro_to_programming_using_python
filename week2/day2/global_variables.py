@@ -6,5 +6,6 @@ def print_x():
     x = 15
     print(x)
 
+
 print_x()
 print(x)
