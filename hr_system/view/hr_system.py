@@ -11,6 +11,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 
 
 class Ui_Form(object):
+
     def setupUi(self, Form):
         Form.setObjectName("Form")
         Form.resize(1024, 700)
@@ -112,6 +113,7 @@ class Ui_Form(object):
         self.bt_del_emp.setText(_translate("Form", "Delete Employee"))
         self.bt_export.setText(_translate("Form", "Export"))
         self.bt_exit.setText(_translate("Form", "Exit"))
+
 
 
 if __name__ == "__main__":

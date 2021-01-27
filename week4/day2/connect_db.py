@@ -1,7 +1,7 @@
 
 from cx_Oracle import connect
 
-from week4.day2.department import Department
+from hr_system.model.department import Department
 
 with connect("hr/hr@localhost/XEPDB1") as conn:
     cur = conn.cursor()
