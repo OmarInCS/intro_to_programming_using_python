@@ -24,3 +24,19 @@ class Employee:
             result = [Employee(*row) for row in result]
 
         return result
+
+    def save_to_db(self):
+        with connect("hr/hr@localhost/XEPDB1") as conn:
+            cur = conn.cursor()
+            sql = """INSERT INTO employees 
+            (employee_id, last_name, email, hire_date, job_id, salary, department_id) 
+            VALUES (:emp_id, :emp_name, :email, :hire_date, :job_id, :salary, :dept_id)"""
+            cur.execute(sql, self.__dict__)
+            conn.commit()
+
+    def delete_from_db(self):
+        with connect("hr/hr@localhost/XEPDB1") as conn:
+            cur = conn.cursor()
+            sql = f"DELETE FROM employees WHERE employee_id = {self.emp_id}"
+            cur.execute(sql)
+            conn.commit()
