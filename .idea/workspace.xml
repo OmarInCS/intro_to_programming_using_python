@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58ee5e6e-03e5-4ea8-b5e7-9d121a4a4528" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hr_system/controller/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr_system/model/department.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr_system/model/employee.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr_system/view/add_emp.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr_system/controller/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/hr_system/controller/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr_system/model/employee.py" beforeDir="false" afterPath="$PROJECT_DIR$/hr_system/model/employee.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week4/day2/hr.db" beforeDir="false" afterPath="$PROJECT_DIR$/week4/day2/hr.db" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,20 +17,33 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hr_system/controller/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="188">
+              <caret line="27" column="56" lean-forward="true" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
               <folding>
                 <element signature="e#1#30#0" expanded="true" />
+                <element signature="e#844#933#0" />
+                <element signature="e#968#1208#0" />
+                <element signature="e#1258#1470#0" />
+                <element signature="e#1515#1749#0" />
+                <element signature="e#1795#2268#0" />
+                <element signature="e#2305#2479#0" />
+                <element signature="e#2550#3412#0" />
+                <element signature="e#3448#3577#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week4/day2/Sketch.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hr_system/model/department.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1025">
-              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+            <state relative-caret-position="510">
+              <caret line="41" column="25" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="41" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -41,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hr_system/model/employee.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="396">
+              <caret line="45" column="24" lean-forward="true" selection-start-line="38" selection-start-column="15" selection-end-line="45" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -123,8 +133,8 @@
         <option value="$PROJECT_DIR$/week4/day2/connect_db.py" />
         <option value="$PROJECT_DIR$/week4/day2/employee.py" />
         <option value="$PROJECT_DIR$/week4/day2/app.py" />
-        <option value="$PROJECT_DIR$/hr_system/model/employee.py" />
         <option value="$PROJECT_DIR$/hr_system/model/department.py" />
+        <option value="$PROJECT_DIR$/hr_system/model/employee.py" />
         <option value="$PROJECT_DIR$/hr_system/controller/app.py" />
       </list>
     </option>
@@ -352,7 +362,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16111952" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1633888" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -589,33 +599,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week4/day2/Sketch.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/hr_system/view/add_emp.ui">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hr_system/controller/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#1#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/week4/day2/Sketch.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/hr_system/model/department.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        <state relative-caret-position="510">
+          <caret line="41" column="25" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="41" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hr_system/model/employee.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="396">
+          <caret line="45" column="24" lean-forward="true" selection-start-line="38" selection-start-column="15" selection-end-line="45" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hr_system/controller/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="27" column="56" lean-forward="true" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+          <folding>
+            <element signature="e#1#30#0" expanded="true" />
+            <element signature="e#844#933#0" />
+            <element signature="e#968#1208#0" />
+            <element signature="e#1258#1470#0" />
+            <element signature="e#1515#1749#0" />
+            <element signature="e#1795#2268#0" />
+            <element signature="e#2305#2479#0" />
+            <element signature="e#2550#3412#0" />
+            <element signature="e#3448#3577#0" />
+          </folding>
         </state>
       </provider>
     </entry>
