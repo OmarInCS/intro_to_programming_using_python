@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9690a050-e503-45ba-8ced-0758ffb2b80c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week1/day2/check_day.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week1/day2/compute_salary_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/day3/check_mobile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/day3/check_plate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/day3/generate_plate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/day3/str_basics.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,35 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.57488656">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/week1/day2/check_day.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="231">
-                  <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/week1/day2/Sketch2.png">
-              <provider selected="true" editor-type-id="images" />
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/week1/day2/Sketch2.png">
-              <provider selected="true" editor-type-id="images" />
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,6 +36,10 @@
         <option value="$PROJECT_DIR$/analyze_marks.py" />
         <option value="$PROJECT_DIR$/week1/day2/compute_salary_v2.py" />
         <option value="$PROJECT_DIR$/week1/day2/check_day.py" />
+        <option value="$PROJECT_DIR$/week1/day3/str_basics.py" />
+        <option value="$PROJECT_DIR$/week1/day3/check_plate.py" />
+        <option value="$PROJECT_DIR$/week1/day3/check_mobile.py" />
+        <option value="$PROJECT_DIR$/week1/day3/generate_plate.py" />
       </list>
     </option>
   </component>
@@ -93,7 +70,7 @@
               <item name="Group20210221" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group20210221" type="462c0819:PsiDirectoryNode" />
               <item name="week1" type="462c0819:PsiDirectoryNode" />
-              <item name="day2" type="462c0819:PsiDirectoryNode" />
+              <item name="day3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -126,28 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.check_day">
-    <configuration name="analyze_marks" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Group20210221" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\OmarKarem\Desktop\Group20210221\week1\day1\analyze_marks.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.generate_plate">
     <configuration name="check_day" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Group20210221" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,7 +125,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="compute_pct" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="check_mobile" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Group20210221" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,11 +133,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week1/day3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\OmarKarem\Desktop\Group20210221\week1\day1\compute_pct.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week1/day3/check_mobile.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,7 +146,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="compute_salary" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="check_plate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Group20210221" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,11 +154,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week1/day3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\OmarKarem\Desktop\Group20210221\week1\day1\compute_salary.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week1/day3/check_plate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,7 +167,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="compute_salary_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="generate_plate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Group20210221" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -219,11 +175,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week1/day2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week1/day3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week1/day2/compute_salary_v2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week1/day3/generate_plate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="str_basics" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Group20210221" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week1/day3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week1/day3/str_basics.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.generate_plate" />
+        <item itemvalue="Python.check_mobile" />
+        <item itemvalue="Python.check_plate" />
+        <item itemvalue="Python.str_basics" />
         <item itemvalue="Python.check_day" />
-        <item itemvalue="Python.compute_salary_v2" />
-        <item itemvalue="Python.analyze_marks" />
-        <item itemvalue="Python.compute_pct" />
-        <item itemvalue="Python.compute_salary" />
       </list>
     </recent_temporary>
   </component>
@@ -257,9 +234,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20726173" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19288956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -272,11 +248,11 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32405892" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32840723" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.635468" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.39934534" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SQL Formatter" order="3" />
+      <window_info anchor="right" id="Run" order="4" weight="0.43192133" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -329,13 +305,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week1/day2/check_day.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="297">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week1/day2/Sketch2.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/day3/str_basics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/day3/Sketch.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/day3/Sketch1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/day3/check_plate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/day3/check_mobile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/day3/generate_plate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
