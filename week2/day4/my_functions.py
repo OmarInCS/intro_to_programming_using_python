@@ -6,6 +6,7 @@ def get_bmi(weight, height):
 def get_percentage(mark=25, final_mark=25):
     return mark / final_mark * 100
 
+
 def get_status(bmi):
     if bmi < 18.5:
         return "Underweight"
