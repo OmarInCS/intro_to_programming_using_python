@@ -1,5 +1,4 @@
 
-# Class Relationships (Association, Inheritance)
 
 class Account:
 
