@@ -22,6 +22,7 @@ class MainWindow(QWidget, Ui_Form):
         self.cb_depts.currentIndexChanged.connect(self.filter_emps_by_dept)
         self.le_search.textChanged.connect(self.filter_emps_by_name)
         self.bt_add_dept.clicked.connect(self.show_add_dept_dialog)
+        self.bt_del_dept.clicked.connect(self.delete_dept)
 
 
     def load_depts(self):
@@ -55,7 +56,23 @@ class MainWindow(QWidget, Ui_Form):
         dialog = loadUi("../view/add_dept.ui")
         locs = {str(d.loc_id) for d in self.depts}
         dialog.cb_locs.addItems(locs)
-        dialog.exec()
+        choice = dialog.exec()
+
+        if choice == 1:
+            dept = Department(dialog.le_dept_id.text(),
+                              dialog.le_dept_name.text(),
+                              dialog.cb_locs.currentText())
+            self.depts.append(dept)
+            self.cb_depts.addItem(dept.dept_name)
+            dept.save_to_db()
+
+    def delete_dept(self):
+        idx = self.cb_depts.currentIndex()
+        if idx != 0:
+            self.cb_depts.removeItem(idx)
+            dept = self.depts.pop(idx - 1)
+            dept.delete_from_db()
+
 
 
 app = QApplication([])
