@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>400</width>
-    <height>550</height>
+    <height>567</height>
    </rect>
   </property>
   <property name="font">
@@ -87,7 +87,7 @@
     </widget>
    </item>
    <item>
-    <widget class="QComboBox" name="cb_emps">
+    <widget class="QComboBox" name="cb_depts">
      <item>
       <property name="text">
        <string>Department...</string>
