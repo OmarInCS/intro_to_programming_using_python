@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="813ab186-e013-4f80-b68a-cf6f6eda1bd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/week4/day3/connect_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/day3/department.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/day3/employee.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/day3/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/day3/hr.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr_system/controller/hr.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr_system/model/department.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr_system/model/employee.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr_system/controller/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/hr_system/controller/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,22 +110,44 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/week4/day3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hr_system/model" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Abadnet\Python\Group20210214\hr_system\model" />
       <recent name="D:\Abadnet\Python\Group20210214\week4\day3" />
       <recent name="D:\Abadnet\Python\Group20210214\week4\day1" />
       <recent name="C:\Users\OmarKarem\Desktop\Group20210214\week3\day1" />
       <recent name="C:\Users\OmarKarem\Desktop\Group20210214\week2\day3" />
-      <recent name="C:\Users\OmarKarem\Desktop\Group20210214\week2\day2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Abadnet\Python\Group20210214\hr_system\controller" />
       <recent name="C:\Users\OmarKarem\Desktop\Group20210214\week1\day1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.exceptions">
+  <component name="RunManager" selected="Python.app">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Group20210214" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hr_system/controller" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hr_system/controller/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="connect_db" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Group20210214" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,27 +190,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dict_basics" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Group20210214" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week4/day2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week4/day2/dict_basics.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="exceptions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Group20210214" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,7 +211,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="file_io" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main_window" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Group20210214" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -219,11 +219,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week4/day2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hr_system/view" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week4/day2/file_io.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hr_system/view/main_window.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,11 +234,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.main_window" />
         <item itemvalue="Python.exceptions" />
         <item itemvalue="Python.connect_db" />
         <item itemvalue="Python.count_letters" />
-        <item itemvalue="Python.file_io" />
-        <item itemvalue="Python.dict_basics" />
       </list>
     </recent_temporary>
   </component>
