@@ -1,3 +1,4 @@
+import os
 from sqlite3.dbapi2 import connect
 
 
@@ -17,7 +18,9 @@ class Employee:
 
     @staticmethod
     def get_all_emps():
-        db_path = "D:\\Abadnet\\Python\\Group20210207\\week4\\day3\\hr.db"
+        base_path = os.getcwd()
+        db_path = base_path + "\\hr.db"
+
         with connect(db_path) as conn:
             cur = conn.cursor()
             sql = "SELECT employee_id, last_name, email, hire_date, job_id, salary, department_id FROM employees"
@@ -27,7 +30,8 @@ class Employee:
             return result
 
     def save_to_db(self):
-        db_path = "D:\\Abadnet\\Python\\Group20210207\\week4\\day3\\hr.db"
+        base_path = os.getcwd()
+        db_path = base_path + "\\hr.db"
         with connect(db_path) as conn:
             cur = conn.cursor()
             sql = "INSERT INTO employees (employee_id, last_name, email, hire_date, job_id, salary, department_id) " \
@@ -36,7 +40,8 @@ class Employee:
             conn.commit()
 
     def delete_from_db(self):
-        db_path = "D:\\Abadnet\\Python\\Group20210207\\week4\\day3\\hr.db"
+        base_path = os.getcwd()
+        db_path = base_path + "\\hr.db"
         with connect(db_path) as conn:
             cur = conn.cursor()
             sql = "DELETE FROM employees WHERE employee_id = :emp_id"
