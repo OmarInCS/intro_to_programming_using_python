@@ -1,5 +1,6 @@
 
 from PyQt5.QtWidgets import *
+from PyQt5.uic import loadUi
 
 from hr_system.model.department import Department
 from hr_system.model.employee import Employee
@@ -19,6 +20,8 @@ class MainWindow(QWidget, Ui_Form):
         self.load_emps()
 
         self.cb_depts.currentIndexChanged.connect(self.filter_emps_by_dept)
+        self.le_search.textChanged.connect(self.filter_emps_by_name)
+        self.bt_add_dept.clicked.connect(self.show_add_dept_dialog)
 
     def load_depts(self):
         names = [d.dept_name for d in self.depts]
@@ -38,6 +41,28 @@ class MainWindow(QWidget, Ui_Form):
             for i, e in enumerate(self.emps):
                 if e.dept_id != dept.dept_id:
                     self.tb_emps.hideRow(i)
+
+    def filter_emps_by_name(self):
+        self.load_emps()
+        query = self.le_search.text().lower()
+        if query != "":
+            for i, e in enumerate(self.emps):
+                if not e.emp_name.lower().startswith(query):
+                   self.tb_emps.hideRow(i)
+
+    def show_add_dept_dialog(self):
+        dialog = loadUi("../view/add_dept.ui")
+        locs = {str(d.loc_id) for d in self.depts}
+        dialog.cb_locs.addItems(locs)
+        choice = dialog.exec()
+
+        if choice == 1:
+            dept = Department(dialog.le_dept_id.text(),
+                              dialog.le_dept_name.text(),
+                              dialog.cb_locs.currentText())
+            self.cb_depts.addItem(dept.dept_name)
+            self.depts.append(dept)
+            dept.save_to_db()
 
 
 app = QApplication([])
