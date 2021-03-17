@@ -1,7 +1,7 @@
 import os
 from sqlite3.dbapi2 import connect
 
-from week4.day2.department import Department
+from hr_system.model.department import Department
 
 db_path = os.getcwd() + "\\hr.db"
 with connect(db_path) as conn:

@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9690a050-e503-45ba-8ced-0758ffb2b80c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/week4/day2/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/day2/connect_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/day2/department.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/day2/employee.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/day2/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4/day2/hr.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr_system/controller/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/hr_system/controller/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr_system/model/department.py" beforeDir="false" afterPath="$PROJECT_DIR$/hr_system/model/department.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr_system/model/employee.py" beforeDir="false" afterPath="$PROJECT_DIR$/hr_system/model/employee.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/day2/connect_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/week4/day2/connect_db.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,10 +110,33 @@
       <recent name="C:\Users\OmarKarem\Desktop\Group20210221\week2\day2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Abadnet\Python\Group20210221\hr_system\model" />
+      <recent name="D:\Abadnet\Python\Group20210221\hr_system\controller" />
       <recent name="C:\Users\OmarKarem\Desktop\Group20210221\week1\day1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.app">
+  <component name="RunManager" selected="Python.app (1)">
+    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Group20210221" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hr_system/controller" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hr_system/controller/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Group20210221" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,7 +149,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week4/day2/app.py" />
+      <option name="SCRIPT_NAME" value="D:\Abadnet\Python\Group20210221\hr_system\controller\app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,7 +200,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="file_copy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main_window" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Group20210221" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -187,32 +208,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week4/day1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hr_system/view" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week4/day1/file_copy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="letter_counter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Group20210221" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week4/day1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week4/day1/letter_counter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hr_system/view/main_window.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -223,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app (1)" />
+        <item itemvalue="Python.main_window" />
         <item itemvalue="Python.app" />
         <item itemvalue="Python.connect_db" />
         <item itemvalue="Python.exceptions" />
-        <item itemvalue="Python.file_copy" />
-        <item itemvalue="Python.letter_counter" />
       </list>
     </recent_temporary>
   </component>
