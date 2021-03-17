@@ -26,6 +26,8 @@ class MainWindow(QWidget, Ui_Form):
         self.bt_del_dept.clicked.connect(self.delete_dept)
         self.bt_add_emp.clicked.connect(self.show_add_emp_dialog)
         self.bt_del_emp.clicked.connect(self.delete_emp)
+        self.bt_export.clicked.connect(self.export_data)
+        self.bt_exit.clicked.connect(app.exit)
 
     def load_depts(self):
         names = [d.dept_name for d in self.depts]
@@ -103,6 +105,26 @@ class MainWindow(QWidget, Ui_Form):
             self.tb_emps.removeRow(idx)
             emp = self.emps.pop(idx)
             emp.delete_from_db()
+
+    def export_data(self):
+        info = QFileDialog().getSaveFileName(filter="CSV File (*.csv)")
+
+        if info[0] != "":
+            with open(info[0], "w") as file:
+                col_count = self.tb_emps.columnCount()
+                row_count = self.tb_emps.rowCount()
+
+                for i in range(col_count):
+                    header = self.tb_emps.horizontalHeaderItem(i).text()
+                    file.write(header + ",")
+                file.write("\n")
+
+                for i in range(row_count):
+                    if not self.tb_emps.isRowHidden(i):
+                        for j in range(col_count):
+                            data = self.tb_emps.item(i, j).text()
+                            file.write(data + ",")
+                        file.write("\n")
 
 
 app = QApplication([])
