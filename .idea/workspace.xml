@@ -4,9 +4,8 @@
     <list default="true" id="9690a050-e503-45ba-8ced-0758ffb2b80c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hr_system/controller/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/hr_system/controller/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr_system/controller/hr.db" beforeDir="false" afterPath="$PROJECT_DIR$/hr_system/controller/hr.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hr_system/model/department.py" beforeDir="false" afterPath="$PROJECT_DIR$/hr_system/model/department.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr_system/model/employee.py" beforeDir="false" afterPath="$PROJECT_DIR$/hr_system/model/employee.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4/day2/connect_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/week4/day2/connect_db.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
