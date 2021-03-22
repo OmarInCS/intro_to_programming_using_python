@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9690a050-e503-45ba-8ced-0758ffb2b80c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hr_system/view/add_emp.ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hr_system/controller/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/hr_system/controller/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hr_system/controller/hr.db" beforeDir="false" afterPath="$PROJECT_DIR$/hr_system/controller/hr.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr_system/model/department.py" beforeDir="false" afterPath="$PROJECT_DIR$/hr_system/model/department.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr_system/model/employee.py" beforeDir="false" afterPath="$PROJECT_DIR$/hr_system/model/employee.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,15 +99,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/week4/day2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hr_system/view" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Abadnet\Python\Group20210221\hr_system\view" />
       <recent name="D:\Abadnet\Python\Group20210221\week4\day2" />
       <recent name="D:\Abadnet\Python\Group20210221\week4\day1" />
       <recent name="D:\Abadnet\Python\Group20210221\week3\day4" />
       <recent name="D:\Abadnet\Python\Group20210221\week3\day1" />
-      <recent name="C:\Users\OmarKarem\Desktop\Group20210221\week2\day2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Abadnet\Python\Group20210221\hr_system\model" />
