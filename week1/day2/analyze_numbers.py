@@ -1,4 +1,4 @@
-
+# 0599888921
 m1, m2, m3 = eval(input("Enter three marks: "))
 
 avg = (m1 + m2 + m3) / 3
