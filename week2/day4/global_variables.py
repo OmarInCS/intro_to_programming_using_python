@@ -8,4 +8,3 @@ def do_something():
 
 do_something()
 print(x)
-max()
