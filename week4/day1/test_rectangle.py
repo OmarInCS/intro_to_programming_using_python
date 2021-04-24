@@ -1,5 +1,5 @@
 
-from week4.rectangle import Rectangle
+from week4.day1.rectangle import Rectangle
 
 w, l = eval(input("Enter width and length: "))
 r1 = Rectangle(w, l)

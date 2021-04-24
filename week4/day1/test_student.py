@@ -1,5 +1,5 @@
 
-from week4.student import Student
+from week4.day1.student import Student
 
 s1 = Student("Omar", 23)
 s2 = Student("Khalid", 19)

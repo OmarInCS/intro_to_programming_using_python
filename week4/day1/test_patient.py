@@ -1,5 +1,5 @@
 
-from week4.patient import Patient
+from week4.day1.patient import Patient
 
 # n = input("Enter a name: ")
 # w, h = eval(input("Enter weight and height: "))
