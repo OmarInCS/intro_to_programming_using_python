@@ -1,3 +1,5 @@
+from sqlite3.dbapi2 import connect
+
 
 class Employee:
 
@@ -12,3 +14,13 @@ class Employee:
 
     def __repr__(self):
         return self.emp_name
+
+    @staticmethod
+    def get_all_emps():
+        db_path = "D:\\Abadnet\\Python\\Group20211128\\week4\\day2\\hr.db"
+        with connect(db_path) as conn:
+            cur = conn.cursor()
+            sql = "SELECT employee_id, last_name, email, hire_date, job_id, salary, department_id FROM employees"
+            result = cur.execute(sql).fetchall()
+            result = [Employee(*row) for row in result]
+            return result
